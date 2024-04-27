@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82B2DB"
+    android:backgroundTint="#82B2DB">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="384dp"
+            android:layout_height="776dp"
+            android:text="Data Encryption : Encrypt sensitive user data both in transit and at rest using strong encryption algorithms. This includes user credentials, payment information, and any other personally identifiable information (PII). Secure Authentication: Use secure authentication mechanisms such as OAuth or JWT to authenticate users securely. Implement strong password policies, multi-factor authentication (MFA), and session management to prevent unauthorized access. User Privacy Controls: Provide users with granular privacy controls to manage their personal information, including profile details, location data, and ride history. Allow users to opt-in or opt-out of data collection and sharing. Secure Communication: Use HTTPS for all communication between the app and the server to "
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="341dp"
+            android:layout_height="51dp"
+            android:gravity="center"
+            android:text="Security and Privacy"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
